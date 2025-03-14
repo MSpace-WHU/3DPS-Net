@@ -78,9 +78,9 @@ Start training the network by running:
 3. **Evaluation**:
 After training, evaluate the model using:
    ```
-   CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 ./test.py --dataset_name=forest --pretrained=/home/user/Desktop/pointSAM/PointSAM2/params/forinstance/epoch_83_0.99046.pth
+   CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 ./test.py --dataset_name=forest --pretrained=[pretrain_path]
    ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.

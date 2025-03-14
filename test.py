@@ -143,7 +143,7 @@ def merge_individual_tree(output_path, filename, search_tree, truth_data, logger
 
 if __name__ == '__main__':
 
-    # CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 ./test.py --pretrained=/home/user/Desktop/3DPSNet/params/pretained/forinstance_N1.pth --position='/home/user/Desktop/3DPSNet/data/forinstance1/split_test
+    # CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 ./test.py --pretrained=[pretrain_path]
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--local_rank', type=int, default=0, help='node rank for distributed training')
