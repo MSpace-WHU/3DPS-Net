@@ -84,3 +84,7 @@ After training, evaluate the model using:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
+
+## Acknowledgements
+
+The code is built based on [KPConv](https://github.com/HuguesTHOMAS/KPConv-PyTorch)
